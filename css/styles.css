@@ -38,6 +38,12 @@
     padding-bottom: 2%;
 }
 
+.projectLink {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: .5%;
+}
+
 .githubBtn {
     margin-bottom: 2%;
 }
