@@ -1,0 +1,54 @@
+
+/* ------------ HEADER */
+#title {
+
+}
+
+/* ------------ NAV-BAR */
+.navBar {
+    margin: auto;
+}
+
+.navBarButtons {
+    margin-left:10px;
+    margin-right:10px
+}
+
+/* ------------ BODY */
+.divBody {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.divTitle {
+    padding-top: 2%;
+}
+
+.divBodyIn {
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+.webProjects {
+    padding-top: 0%;
+    padding-bottom: 2%;
+}
+
+.otherProjects {
+    padding-bottom: 2%;
+}
+
+.githubBtn {
+    margin-bottom: 2%;
+}
+
+/* ------------ FOOTER */
+.footerNav {
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+.socialMedia {
+    color: white;
+    margin: auto;
+}

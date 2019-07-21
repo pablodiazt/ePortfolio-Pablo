@@ -1,0 +1,34 @@
+
+body {
+    background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+/* ------------ HEADER */
+header {
+    padding-top: 4%;
+    text-align: center;
+}
+
+/* ------------ NAV-BAR */
+nav {
+    align: center;
+}
+
+/* ------------ BODY */
+div {
+
+}
+
+/* ------------ FOOTER */
+footer {
+    background: #121212;
+    color: antiquewhite;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    text-align: center;
+}
