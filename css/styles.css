@@ -65,6 +65,10 @@
     background: #e6e6e6;
 }
 
+.resumeWorkLinks {
+    float: left;
+}
+
 .resumeWorkBodyIn {
     padding: 0 4% 4% 20%;
 }
