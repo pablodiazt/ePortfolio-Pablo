@@ -2,8 +2,13 @@ body {
     background: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
 }
 
 /* ------------ HEADER */
@@ -18,15 +23,13 @@ nav {
 }
 
 /* ------------ BODY */
-div {
-
-}
+div {}
 
 /* ------------ FOOTER */
 footer {
     background: #121212;
     color: antiquewhite;
-    padding-top: 5%;
+    padding-top: 0%;
     padding-bottom: 5%;
     margin: auto;
     text-align: center;

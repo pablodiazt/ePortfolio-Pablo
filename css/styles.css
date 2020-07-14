@@ -1,9 +1,14 @@
 /* ------------ HEADER */
 #title {
     font-family: 'Laila', serif;
+    margin-bottom: .5%;
 }
 
 /* ------------ NAV-BAR */
+.navbar {
+    margin-bottom: 0px;
+}
+
 .navBar {
     margin: auto;
 }
@@ -19,20 +24,26 @@
     text-align: center;
 }
 
-.bodyHeading {
-    padding-top: 2%;
+.homeBodyHeading {
+    padding-top: .1%;
     font-family: 'Dosis', sans-serif;
 }
 
-.bodyDivIn {
+.bodyHeading {
     padding-top: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 1%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.carouselDiv {
+    padding: 2% 20% 10% 20%;
 }
 
 /* about */
 .aboutContent {
     padding: 2% 5% 2% 5%;
 }
+
 .contentLeft {
     float: left;
     /* overflow: hidden; */
@@ -44,21 +55,22 @@
 }
 
 /* resume */
-.resumeSkillsBody {
-    background: #f0f0f0;
+.resumeBtnContent {
+    text-align: center;
+    padding: 3% 0% 0% 0%;
+}
+
+.resumeBtnInner {
+    display: inline-block;
 }
 
 .resumeHeading {
-    padding: 2% 4% 0 4%;
+    padding: 1% 4% .5% 4%;
     font-family: 'Dosis', sans-serif;
 }
 
 .resumeSubHeading {
     font-family: 'Dosis', sans-serif;
-}
-
-.resumeSkillsBodyIn {
-    padding: 0 4% 4% 20%;
 }
 
 .resumeWorkBody {
@@ -70,7 +82,7 @@
 }
 
 .resumeWorkBodyIn {
-    padding: 0 4% 4% 20%;
+    padding: 0% 4% 4% 20%;
 }
 
 .resumeEducationBody {
@@ -78,15 +90,15 @@
 }
 
 .resumeEducationBodyIn {
-    padding: 0 4% 4% 20%;
+    padding: 0% 4% 4% 20%;
 }
 
-.resumeBtnContent {
-    text-align: center;
+.resumeSkillsBody {
+    background: #e6e6e6;
 }
 
-.resumeBtnInner {
-    display: inline-block;
+.resumeSkillsBodyIn {
+    padding: 0% 4% 1% 20%;
 }
 
 .resumeRow:after {
@@ -126,21 +138,22 @@
 .contactMeBody {
     background: #f0f0f0;
     margin: 2% 10% 0% 10%;
-    padding: 0;
+    padding: 0%;
 }
 
 .contactMeHeading {
     font-family: 'Signika Negative', sans-serif;
-    margin: 0 0 2% 0 !important;
+    margin: 0% 0% 2% 0% !important;
 }
 
 .contactMeSection {
-    margin: 0 5%;
+    margin: 0% 5%;
+    padding: 2% 1% 2% 1%;
 }
 
 /* ------------ FOOTER */
 .footerNav {
-    padding-bottom: 5%;
+    padding: 0% 0% 5% 0%;
     margin: auto;
 }
 
