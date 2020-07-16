@@ -18,6 +18,10 @@
     margin-right: 10px
 }
 
+.homeNavMediaLinks {
+    font-size: 17px;
+}
+
 /* ------------ BODY */
 .bodyDiv {
     background: #f0f0f0;
