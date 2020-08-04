@@ -1,5 +1,8 @@
 body {
     background: #ffffff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1,
@@ -27,12 +30,17 @@ div {}
 
 /* ------------ FOOTER */
 footer {
-    background: #121212;
+    background: #263238;
     color: antiquewhite;
     padding-top: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
     margin: auto;
     text-align: center;
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex: 1;
 }
 
 ul {
