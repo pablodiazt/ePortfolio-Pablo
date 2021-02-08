@@ -7,6 +7,26 @@
 /* ------------ NAV-BAR */
 .navbar {
     margin-bottom: 0px;
+    background-color: #37474F;
+    border-radius: 0px;
+}
+
+.active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #bdbdbd;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #90A4AE;
 }
 
 .navBar {
@@ -43,19 +63,24 @@
     padding: 2% 20% 10% 20%;
 }
 
-/* about */
-.aboutContent {
-    padding: 2% 5% 2% 5%;
+/* projects */
+.webProjectsDiv {
+    padding-top: 0%;
+    padding-bottom: 2%;
 }
 
-.contentLeft {
-    float: left;
-    /* overflow: hidden; */
+.otherProjectsDiv {
+    padding-bottom: 2%;
 }
 
-.aboutImg {
-    height: 250px;
-    /* width: ; */
+.projectLink {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: .5%;
+}
+
+.githubBtn {
+    margin-bottom: 2%;
 }
 
 /* resume */
@@ -118,24 +143,19 @@
     margin-left: 1%;
 }
 
-/* projects */
-.webProjectsDiv {
-    padding-top: 0%;
-    padding-bottom: 2%;
+/* about */
+.aboutContent {
+    padding: 2% 5% 2% 5%;
 }
 
-.otherProjectsDiv {
-    padding-bottom: 2%;
+.contentLeft {
+    float: left;
+    /* overflow: hidden; */
 }
 
-.projectLink {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: .5%;
-}
-
-.githubBtn {
-    margin-bottom: 2%;
+.aboutImg {
+    height: 250px;
+    /* width: ; */
 }
 
 /* contact */
@@ -159,10 +179,6 @@
 .footerNav {
     padding: 0% 0% 0% 0%;
     margin: auto;
-}
-
-.navbar {
-    border-radius: 0px;
 }
 
 .socialMedia {
